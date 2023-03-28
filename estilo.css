@@ -1,0 +1,127 @@
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    background: #fff;
+
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+
+    min-width: 400px;
+}
+div{
+    display: block;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.general{
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.nave{
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+}
+.cabecera{
+    display: inline-block;
+    flex-grow: 1;
+    min-width: auto;
+    font: 13px/27px Roboto,Arial,sans-serif;
+    z-index: 986;
+    height: 48px;
+    color: black;
+    position: relative;
+    transition: box-shadow 250ms;
+}
+.menu{
+    float: right;
+    padding-left: 32px;
+    box-sizing: border-box;
+    height: 48px;
+    line-height: normal;
+    padding: 0 4px;
+    justify-content: flex-end;
+    vertical-align: middle;
+    white-space: nowrap;
+    -webkit-box-align: center;
+    align-items: center;
+    font: 13px/27px Roboto,Arial,sans-serif;
+    z-index: 986;
+    color: black;
+    min-width: 320px;
+    position: relative;
+    transition: box-shadow 250ms;
+}
+.opcion{
+    display: inline-block;
+    font-family: arial,sans-serif;
+    line-height: normal;
+    padding-right: 15px;
+    box-sizing: border-box;
+    height: 48px;
+    padding: 0 4px;
+    padding-left: 30px;
+    flex: 0 0 auto;
+    justify-content: flex-end;
+    height: 48px;
+    vertical-align: middle;
+    white-space: nowrap;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    color: black;
+    min-width: 320px;
+    position: relative;
+}
+.vinc{
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+}
+a.vinc{
+    color: rgba(0,0,0,.87);
+    text-decoration: none;
+    cursor: pointer;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 92px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+}
+.contenedor{
+    max-height: 92px;
+    position: relative;
+    height: 100%;
+    margin-top: auto
+}
+.googlelogo{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+.boxsearch{
+    padding: 20px;
+    max-height: 160px;
+}
+.prefooter{
+    flex-grow: 1;
+}
+.footnav{
+    background: #f2f2f2;
+}
+form{
+    display: block;
+    margin-top: 0em;
+}

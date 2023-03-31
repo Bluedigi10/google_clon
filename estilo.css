@@ -1,7 +1,5 @@
 body{
-    height: 100%;
-    margin: 0;
-    padding: 0;
+    display: block;
 
     background: #fff;
 
@@ -9,10 +7,18 @@ body{
     font-family: arial,sans-serif;
     color: #202124;
 
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
     min-width: 400px;
 }
 div{
     display: block;
+}
+form {
+    display: block;
+    margin-top: 0em;
 }
 .main{
     display: flex;
@@ -32,6 +38,8 @@ div{
 .cabecera{
     display: inline-block;
     flex-grow: 1;
+}
+.subcabecera{
     min-width: auto;
     font: 13px/27px Roboto,Arial,sans-serif;
     z-index: 986;
@@ -50,8 +58,8 @@ div{
     justify-content: flex-end;
     vertical-align: middle;
     white-space: nowrap;
-    -webkit-box-align: center;
     align-items: center;
+    display: flex;
     font: 13px/27px Roboto,Arial,sans-serif;
     z-index: 986;
     color: black;
@@ -62,23 +70,7 @@ div{
 .opcion{
     display: inline-block;
     font-family: arial,sans-serif;
-    line-height: normal;
-    padding-right: 15px;
-    box-sizing: border-box;
-    height: 48px;
-    padding: 0 4px;
-    padding-left: 30px;
-    flex: 0 0 auto;
-    justify-content: flex-end;
-    height: 48px;
-    vertical-align: middle;
-    white-space: nowrap;
-    -webkit-box-align: center;
-    align-items: center;
-    display: flex;
-    color: black;
-    min-width: 320px;
-    position: relative;
+    padding-left: 15px;
 }
 .vinc{
     display: inline-block;
@@ -89,6 +81,41 @@ a.vinc{
     color: rgba(0,0,0,.87);
     text-decoration: none;
     cursor: pointer;
+}
+.menu4{
+    display: inline-block;
+    box-sizing: border-box;
+    height: 48px;
+    line-height: normal;
+    padding: 4px;
+    flex: 0 0 auto;
+    justify-content: flex-end;
+    vertical-align: middle;
+    white-space: nowrap;
+    align-items: center;
+}
+.btnmenu{
+    display: inline-block;
+    height: 48px;
+    padding: 4px;
+    padding-left: 22px;
+    position: relative;
+    vertical-align: middle;
+    height: 100%;
+    justify-content: flex-end;
+    border-radius: 50%;
+}
+.imgmenu{
+    object-fit: contain;
+}
+.botones{
+    margin-top: 8px;
+    max-height: 15px;
+    max-width: 15px;
+}
+.perfil{
+    max-height: 30px;
+    max-width: 30px;
 }
 .logo{
     display: flex;
@@ -102,7 +129,7 @@ a.vinc{
     max-height: 92px;
     position: relative;
     height: 100%;
-    margin-top: auto
+    margin-top: 198px;
 }
 .googlelogo{
     max-height: 100%;
@@ -114,6 +141,36 @@ a.vinc{
 .boxsearch{
     padding: 20px;
     max-height: 160px;
+}
+.box{
+    margin: 0 auto;
+    padding-top: 6px;
+    width: auto;
+    max-width: 584px;
+    position: relative;
+}
+.gbox{
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+}
+.gboxs{
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 14px;
+}
+.btnsearch{
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
 }
 .prefooter{
     flex-grow: 1;

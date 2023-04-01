@@ -20,6 +20,13 @@ form {
     display: block;
     margin-top: 0em;
 }
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: underline;
+}
 .main{
     display: flex;
     flex-direction: column;
@@ -79,8 +86,6 @@ form {
 }
 a.vinc{
     color: rgba(0,0,0,.87);
-    text-decoration: none;
-    cursor: pointer;
 }
 .menu4{
     display: inline-block;
@@ -172,8 +177,51 @@ a.vinc{
     padding-right: 13px;
     margin-top: -5px;
 }
+.lupa{
+    margin-top: 3px;
+    color: #9aa0a6;
+    display: inline-block;
+    fill: currentColor;
+    position: relative;
+}
+.texts{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+.entrada{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+}
+.boxbuttons{
+    height: 70px;
+    padding-top: 18px;
+}
+.lucky{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
 .prefooter{
     flex-grow: 1;
+    height: 365px;
 }
 .footnav{
     background: #f2f2f2;
@@ -181,4 +229,26 @@ a.vinc{
 form{
     display: block;
     margin-top: 0em;
+}
+.region{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+}
+.opcion1{
+    padding: 0 20px;
+}
+.opciones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.enlaces{
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+}
+.enlaces, a.enlaces{
+    color: #70757a;
 }
